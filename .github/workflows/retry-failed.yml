@@ -1,0 +1,20 @@
+name: retry-failed
+
+# Manual recovery path: rebuild and republish every package with an open
+# build-failure issue. Successful retries close their issue in build-publish;
+# packages that still fail retain the issue for the next retry.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+jobs:
+  build-publish:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
+    with:
+      retry-failed: true
+    secrets: inherit
