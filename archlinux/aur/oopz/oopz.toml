@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "oopz"
+version = "1.0.0-1"
+autoupdate = true
