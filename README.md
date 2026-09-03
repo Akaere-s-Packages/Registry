@@ -11,6 +11,7 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 |---|---|---|---|---|---|---|
 | asusctl | archlinux | aur | 6.4.0-1 | yes | - | [details](https://packages.pysio.online/packages/asusctl/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | - | [details](https://packages.pysio.online/packages/rog-control-center/) |
+| supergfxctl | archlinux | aur | 5.2.7-2 | yes | - | [details](https://packages.pysio.online/packages/supergfxctl/) |
 <!-- PACKAGE_TABLE:END -->
 
 The table above is regenerated automatically after every publish — don't edit the content between the markers by hand.

@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "supergfxctl"
+version = "5.2.7-2"
+autoupdate = true
