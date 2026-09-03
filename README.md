@@ -25,10 +25,10 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 | python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/repoq/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/rog-control-center/) |
-| samsung-unified-driver | archlinux | aur | 1.00.39-11 | yes | - | [details](https://packages.pysio.online/packages/samsung-unified-driver/) |
+| samsung-unified-driver | archlinux | aur | 1.00.39-11 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/samsung-unified-driver/) |
 | samsung-unified-driver-common | archlinux | aur | 1.00.39-11 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/samsung-unified-driver-common/) |
-| samsung-unified-driver-printer | archlinux | aur | 1.00.39-11 | yes | - | [details](https://packages.pysio.online/packages/samsung-unified-driver-printer/) |
-| samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | - | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
+| samsung-unified-driver-printer | archlinux | aur | 1.00.39-11 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/samsung-unified-driver-printer/) |
+| samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
 | sparkle-bin | archlinux | aur | 1.26.7-1 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/supergfxctl/) |
 | visual-studio-code-bin | archlinux | aur | 1.136.0-1 | yes | 2026-09-03 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
