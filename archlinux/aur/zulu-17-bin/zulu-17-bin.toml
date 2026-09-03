@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "zulu-17-bin"
+version = "17.0.20-1"
+autoupdate = true

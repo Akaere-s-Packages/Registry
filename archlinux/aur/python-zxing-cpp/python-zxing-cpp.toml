@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "python-zxing-cpp"
+version = "3.1.1-2"
+autoupdate = true

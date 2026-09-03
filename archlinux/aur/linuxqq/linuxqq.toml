@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "linuxqq"
+version = "5:3.2.33_52892-1"
+autoupdate = true

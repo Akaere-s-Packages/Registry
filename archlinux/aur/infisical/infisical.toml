@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "infisical"
+version = "0.43.127-1"
+autoupdate = true

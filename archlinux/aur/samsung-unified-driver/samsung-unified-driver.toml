@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "samsung-unified-driver"
+version = "1.00.39-11"
+autoupdate = true

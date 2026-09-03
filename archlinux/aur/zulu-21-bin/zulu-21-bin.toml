@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "zulu-21-bin"
+version = "21.0.12.1-1"
+autoupdate = true

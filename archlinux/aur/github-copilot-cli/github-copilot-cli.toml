@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "github-copilot-cli"
+version = "1.0.82-1"
+autoupdate = true

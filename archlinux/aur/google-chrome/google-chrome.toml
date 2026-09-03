@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "google-chrome"
+version = "152.0.7977.75-1"
+autoupdate = true

@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "paru"
+version = "2.1.0-2"
+autoupdate = true

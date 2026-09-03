@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "noto-fonts-sc"
+version = "2:20210430-2"
+autoupdate = true
