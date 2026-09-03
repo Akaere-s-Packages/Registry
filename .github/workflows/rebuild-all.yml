@@ -1,0 +1,22 @@
+name: rebuild-all
+
+# Manual escape hatch: rebuilds and republishes every package in the
+# registry, regardless of what actually changed. Use this after a
+# workflow-build-kit fix that should apply retroactively (e.g. a
+# build/package.sh bug), after rotating the GPG signing key, or to
+# recover from a bad publish — not part of the normal per-change flow.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+jobs:
+  build-publish:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
+    with:
+      rebuild-all: true
+    secrets: inherit
