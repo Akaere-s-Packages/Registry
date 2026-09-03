@@ -10,6 +10,17 @@ on:
 
 jobs:
   build-publish:
+    # A reusable workflow can only ever be granted a *subset* of the
+    # calling job's own permissions — declaring `permissions:` inside
+    # build-publish.yml itself doesn't grant anything on its own. This
+    # repo's default GITHUB_TOKEN permissions are read-only, so the
+    # exact set build-publish.yml needs (contents: write for the README/
+    # data commits, issues: write for failure notifications, actions:
+    # read for the job-url lookup) has to be granted explicitly here.
+    permissions:
+      contents: write
+      issues: write
+      actions: read
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
     with:
       base-sha: ${{ github.event.before }}
