@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "rog-control-center"
+version = "6.4.0-1"
+autoupdate = true
