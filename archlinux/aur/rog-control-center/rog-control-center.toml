@@ -1,4 +1,5 @@
 [PACKAGES]
 name = "rog-control-center"
+pkgbase = "asusctl"
 version = "6.4.0-1"
 autoupdate = true
