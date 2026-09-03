@@ -1,0 +1,17 @@
+name: build-and-publish
+
+on:
+  push:
+    branches: [main]
+    paths: ["*/*/*/*.toml"]
+    # No paths-ignore needed for README.md: it doesn't match the toml glob
+    # anyway, and update-readme.yml commits with the default GITHUB_TOKEN,
+    # which GitHub Actions never lets retrigger a new workflow run.
+
+jobs:
+  build-publish:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
+    with:
+      base-sha: ${{ github.event.before }}
+      head-sha: ${{ github.event.after }}
+    secrets: inherit

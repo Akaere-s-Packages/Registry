@@ -1,0 +1,11 @@
+name: version-check
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # daily at 02:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  version-check:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/version-check.yml@main
+    secrets: inherit

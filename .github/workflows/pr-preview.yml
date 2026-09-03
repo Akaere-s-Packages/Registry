@@ -1,0 +1,19 @@
+name: pr-preview
+
+on:
+  pull_request:
+    paths: ["*/*/*/*.toml"]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  preview:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/pr-preview.yml@main
+    with:
+      base-sha: ${{ github.event.pull_request.base.sha }}
+      head-sha: ${{ github.event.pull_request.head.sha }}
+      pr-number: ${{ github.event.pull_request.number }}
+    # Deliberately no `secrets: inherit` — pr-preview.yml doesn't accept any
+    # secrets inputs at all, so this is safe even for PRs from forks.
