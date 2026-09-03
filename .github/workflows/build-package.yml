@@ -1,0 +1,26 @@
+name: build-package
+
+# Manual trigger: build and publish one or more specific packages by name,
+# without touching anything else in the Registry — for re-publishing after
+# a transient failure that never opened an issue, testing a manual fix, or
+# picking up an upstream release ahead of the next daily autoupdate check.
+
+on:
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: Package name(s) to build and publish (comma and/or whitespace separated)
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+jobs:
+  build-publish:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
+    with:
+      package-names: ${{ inputs.packages }}
+    secrets: inherit

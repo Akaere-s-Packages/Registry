@@ -1,0 +1,23 @@
+name: clean
+
+# Manual maintenance path: builds nothing, just reconciles the published
+# repo db against the current Registry and repo-removes (+ deletes from
+# R2) anything the db still has that the Registry no longer tracks. Use
+# this to clean up drift left behind by a package removed some other way
+# than the normal push flow (a squash-merged deletion, a past bug in that
+# flow, etc.) without waiting for the next unrelated publish to catch it.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+jobs:
+  build-publish:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
+    with:
+      clean-only: true
+    secrets: inherit
