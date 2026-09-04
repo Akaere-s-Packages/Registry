@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "lolia-cli"
+version = "0.71.0-1"
+autoupdate = true
