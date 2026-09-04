@@ -2,7 +2,7 @@ name: version-check
 
 on:
   schedule:
-    - cron: "0 2 * * *" # daily at 02:00 UTC
+    - cron: "0 * * * *" # hourly at minute 0 UTC
   workflow_dispatch: {}
 
 jobs:
