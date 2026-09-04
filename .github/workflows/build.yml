@@ -21,6 +21,8 @@ jobs:
       contents: write
       issues: write
       actions: read
+      id-token: write
+      attestations: write
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
     with:
       base-sha: ${{ github.event.before }}
