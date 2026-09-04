@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "oh-my-pi-bin"
-version = "18.1.5-1"
+version = "18.1.8-1"
 autoupdate = true
