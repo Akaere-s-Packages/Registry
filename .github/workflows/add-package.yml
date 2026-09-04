@@ -1,0 +1,22 @@
+name: add-package
+
+# Manually triggered: type in one upstream package name, get back a PR
+# introducing it — and any of its dependencies that aren't already
+# available through the normal package manager — to the Registry. See
+# workflow-build-kit's scripts/update/add_package.sh for the resolution
+# logic.
+
+on:
+  workflow_dispatch:
+    inputs:
+      package-name:
+        description: Upstream package name to introduce (e.g. an AUR pkgname)
+        required: true
+        type: string
+
+jobs:
+  add-package:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/add-package.yml@main
+    with:
+      package-name: ${{ inputs.package-name }}
+    secrets: inherit

@@ -3,8 +3,8 @@ name: rebuild-all
 # Manual escape hatch: rebuilds and republishes every package in the
 # registry, regardless of what actually changed. Use this after a
 # workflow-build-kit fix that should apply retroactively (e.g. a
-# build/package.sh bug), after rotating the GPG signing key, or to
-# recover from a bad publish — not part of the normal per-change flow.
+# backends/archlinux/build.sh bug), after rotating the GPG signing key, or
+# to recover from a bad publish — not part of the normal per-change flow.
 
 on:
   workflow_dispatch: {}
