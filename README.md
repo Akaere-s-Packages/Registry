@@ -14,9 +14,9 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 | claude-code | archlinux | aur | 2.1.260-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/claude-code/) |
 | github-copilot-cli | archlinux | aur | 1.0.82-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 152.0.7977.82-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/google-chrome/) |
-| infisical | archlinux | aur | 0.43.127-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/infisical/) |
+| infisical | archlinux | aur | 0.43.129-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.33_52892-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/linuxqq/) |
-| lolia-cli | archlinux | aur | 0.71.0-1 | yes | - | [details](https://packages.pysio.online/packages/lolia-cli/) |
+| lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/lolia-cli/) |
 | netbird-bin | archlinux | aur | 0.78.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
 | oh-my-pi-bin | archlinux | aur | 18.1.8-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
