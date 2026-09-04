@@ -1,7 +1,7 @@
 name: merge-queue
 
-# Drains the autoPR merge queue (see workflow-build-kit's check_updates.py
-# and merge_queue.py): merges at most one ready bump/* PR per run, and
+# Drains the autoPR merge queue (see workflow-build-kit's check_updates.sh
+# and merge_queue.sh): merges at most one ready bump/* PR per run, and
 # only when nothing else is running in this repo's Actions, so a merge's
 # build-and-publish run always finishes before the next bump/* PR merges
 # — never overlapping.
