@@ -1,0 +1,23 @@
+name: merge-queue
+
+# Drains the autoPR merge queue (see workflow-build-kit's check_updates.py
+# and merge_queue.py): merges at most one ready bump/* PR per run, and
+# only when nothing else is running in this repo's Actions, so a merge's
+# build-and-publish run always finishes before the next bump/* PR merges
+# — never overlapping.
+#
+# Triggered by whatever could change the outcome: pr-preview finishing
+# (a PR might now be ready) or build-and-publish finishing (the queue
+# might now be free) — plus workflow_dispatch for manual recovery if an
+# event is ever missed.
+
+on:
+  workflow_run:
+    workflows: ["pr-preview", "build-and-publish"]
+    types: [completed]
+  workflow_dispatch: {}
+
+jobs:
+  drain-queue:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/merge-queue.yml@main
+    secrets: inherit
