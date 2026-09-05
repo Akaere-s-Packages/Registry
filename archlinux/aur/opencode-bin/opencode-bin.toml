@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "opencode-bin"
-version = "1.18.27-1"
+version = "1.18.29-1"
 autoupdate = true
