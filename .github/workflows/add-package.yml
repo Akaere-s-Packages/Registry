@@ -1,14 +1,23 @@
 name: add-package
 
-# Manually triggered: type in one upstream package name, get back a PR
-# introducing it — and any of its dependencies that aren't already
-# available through the normal package manager — to the Registry. See
-# workflow-build-kit's scripts/update/add_package.sh for the resolution
-# logic.
+# Manually triggered: pick a source, type in one upstream package name,
+# get back a PR introducing it — and any of its dependencies that aren't
+# already available through the normal package manager — to the Registry.
+# `source` only offers "aur" for now (the only backend that exists), but
+# is its own dropdown rather than baked in so a second source can be
+# added here later without reshaping this input. See workflow-build-kit's
+# scripts/update/add_package.sh for the resolution logic.
 
 on:
   workflow_dispatch:
     inputs:
+      source:
+        description: Where to resolve the package from
+        required: true
+        type: choice
+        options:
+          - aur
+        default: aur
       package-name:
         description: Upstream package name to introduce (e.g. an AUR pkgname)
         required: true
@@ -19,4 +28,5 @@ jobs:
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/add-package.yml@main
     with:
       package-name: ${{ inputs.package-name }}
+      source-type: ${{ inputs.source }}
     secrets: inherit
