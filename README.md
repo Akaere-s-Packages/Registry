@@ -19,7 +19,7 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/lolia-cli/) |
 | netbird-bin | archlinux | aur | 0.78.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
-| oh-my-pi-bin | archlinux | aur | 18.1.10-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
+| oh-my-pi-bin | archlinux | aur | 18.1.11-1 | yes | 2026-09-05 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.18.29-1 | yes | 2026-09-05 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/paru/) |
