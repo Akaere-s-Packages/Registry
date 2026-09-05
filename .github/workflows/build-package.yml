@@ -12,6 +12,11 @@ on:
         description: Package name(s) to build and publish (comma and/or whitespace separated)
         required: true
         type: string
+      use-cache:
+        description: Reuse the pacman package cache. Untick for a guaranteed clean-room build.
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -25,4 +30,5 @@ jobs:
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
     with:
       package-names: ${{ inputs.packages }}
+      use-cache: ${{ inputs.use-cache }}
     secrets: inherit

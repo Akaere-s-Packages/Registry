@@ -5,7 +5,16 @@ name: retry-failed
 # packages that still fail retain the issue for the next retry.
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      use-cache:
+        description: >-
+          Reuse the pacman package cache. Untick if a failure might be
+          caused by something a cached package downloaded on an earlier
+          attempt (rare, but this is a recovery path — worth the option).
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -19,4 +28,5 @@ jobs:
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
     with:
       retry-failed: true
+      use-cache: ${{ inputs.use-cache }}
     secrets: inherit

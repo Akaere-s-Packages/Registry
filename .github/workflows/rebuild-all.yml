@@ -7,7 +7,16 @@ name: rebuild-all
 # to recover from a bad publish — not part of the normal per-change flow.
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      use-cache:
+        description: >-
+          Reuse the pacman package cache. Untick for a guaranteed
+          clean-room rebuild — this is the escape hatch most likely to be
+          run specifically because a cached package might be the problem.
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -21,4 +30,5 @@ jobs:
     uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/build-publish.yml@main
     with:
       rebuild-all: true
+      use-cache: ${{ inputs.use-cache }}
     secrets: inherit
