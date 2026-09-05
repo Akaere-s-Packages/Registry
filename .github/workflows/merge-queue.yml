@@ -1,10 +1,10 @@
 name: merge-queue
 
 # Drains the autoPR merge queue (see workflow-build-kit's check_updates.sh
-# and merge_queue.sh): merges at most one ready bump/* PR per run, and
-# only when nothing else is running in this repo's Actions, so a merge's
-# build-and-publish run always finishes before the next bump/* PR merges
-# — never overlapping.
+# and merge_queue.sh): merges every ready bump/* PR it can find, one at a
+# time, waiting between each merge until nothing else is running in this
+# repo's Actions — so a merge's build-and-publish run always finishes
+# before the next bump/* PR merges, never overlapping.
 #
 # Triggered by whatever could change the outcome: pr-preview finishing
 # (a PR might now be ready) or build-and-publish finishing (the queue
