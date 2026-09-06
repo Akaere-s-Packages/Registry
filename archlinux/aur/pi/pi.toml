@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "pi"
+version = "0.85.1-2"
+autoupdate = true
