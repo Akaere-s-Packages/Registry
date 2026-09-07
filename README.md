@@ -31,7 +31,7 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 | samsung-unified-driver-common | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-common/) |
 | samsung-unified-driver-printer | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-printer/) |
 | samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
-| sparkle-bin | archlinux | aur | 1.26.7-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
+| sparkle-bin | archlinux | aur | 1.26.8-1 | yes | 2026-09-07 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/supergfxctl/) |
 | visual-studio-code-bin | archlinux | aur | 1.136.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
 | yubico-authenticator | archlinux | aur | 7.4.1-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
