@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "sparkle-bin"
-version = "1.26.7-1"
+version = "1.26.8-1"
 autoupdate = true
