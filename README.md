@@ -4,6 +4,8 @@ The package manifest for Akaere's Packages. Each `<distro>/<type>/<name>/<name>.
 
 To add or update a package, edit its toml and open a PR: the PR automatically gets a preview build with the file diff posted as a comment. Once merged to `main`, it's automatically built, signed, published to the package repository, and synced to the [website](https://packages.pysio.online). Packages with `autoupdate = true` are checked daily against their AUR upstream, and a bump PR is opened automatically when a new version is available.
 
+To remove a package, run the **remove-package** workflow with its name (Actions → remove-package → Run workflow): it opens a PR deleting the manifest, and merging that PR is what actually drops the package from the published repository — the build pipeline repo-removes it from the pacman database and deletes its files from storage. It refuses if another package here still hard-depends on it; if those are going too, list every name at once, comma-separated.
+
 ## Packages
 
 <!-- PACKAGE_TABLE:START -->

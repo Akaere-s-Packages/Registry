@@ -1,0 +1,28 @@
+name: remove-package
+
+# Manually triggered: type in the name of a package this Registry
+# tracks, get back a PR deleting its manifest. Merging that PR is what
+# drops it from the published repository (build-and-publish repo-removes
+# it from the pacman db and deletes its files from R2), so the removal
+# still goes through the normal review + build pipeline rather than
+# reaching into the bucket directly.
+#
+# No `source`/`distro` dropdown here, unlike add-package: the package is
+# already in the Registry, so where its manifest lives is looked up
+# rather than chosen. See workflow-build-kit's
+# scripts/update/remove_package.sh.
+
+on:
+  workflow_dispatch:
+    inputs:
+      package-name:
+        description: Package name to remove (comma-separate several at once)
+        required: true
+        type: string
+
+jobs:
+  remove-package:
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/remove-package.yml@main
+    with:
+      package-name: ${{ inputs.package-name }}
+    secrets: inherit
