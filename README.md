@@ -13,7 +13,6 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 |---|---|---|---|---|---|---|
 | 1password | archlinux | aur | 8.12.34-34 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/asusctl/) |
-| chatgpt-desktop | archlinux | aur | 26.901.51231-1 | yes | 2026-09-09 | [details](https://packages.pysio.online/packages/chatgpt-desktop/) |
 | claude-code | archlinux | aur | 2.1.267-1 | yes | 2026-09-09 | [details](https://packages.pysio.online/packages/claude-code/) |
 | github-copilot-cli | archlinux | aur | 1.0.83-1 | yes | 2026-09-05 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 152.0.7977.82-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/google-chrome/) |
