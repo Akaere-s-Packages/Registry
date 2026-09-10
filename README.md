@@ -25,7 +25,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.18.30-1 | yes | 2026-09-09 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/paru/) |
-| pi | archlinux | aur | 0.85.1-2 | yes | 2026-09-06 | [details](https://packages.pysio.online/packages/pi/) |
+| pi | archlinux | aur | 0.85.1-3 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/pi/) |
 | python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/repoq/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/rog-control-center/) |
