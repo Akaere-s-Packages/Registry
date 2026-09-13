@@ -11,34 +11,34 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 <!-- PACKAGE_TABLE:START -->
 | Package | Distro | Source | Version | Autoupdate | Last Updated | Details |
 |---|---|---|---|---|---|---|
-| 1password | archlinux | aur | 8.12.34-34 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/1password/) |
-| asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/asusctl/) |
-| claude-code | archlinux | aur | 2.1.268-1 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/claude-code/) |
-| github-copilot-cli | archlinux | aur | 1.0.83-1 | yes | 2026-09-05 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
-| google-chrome | archlinux | aur | 153.0.8010.36-1 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/google-chrome/) |
-| infisical | archlinux | aur | 0.43.130-1 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/infisical/) |
-| linuxqq | archlinux | aur | 5:3.2.33_52892-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/linuxqq/) |
-| lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/lolia-cli/) |
-| netbird-bin | archlinux | aur | 0.78.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/netbird-bin/) |
-| noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
-| oh-my-pi-bin | archlinux | aur | 18.1.17-1 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
-| oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/oopz/) |
-| opencode-bin | archlinux | aur | 1.18.30-1 | yes | 2026-09-09 | [details](https://packages.pysio.online/packages/opencode-bin/) |
-| paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/paru/) |
-| pi | archlinux | aur | 0.85.1-3 | yes | 2026-09-10 | [details](https://packages.pysio.online/packages/pi/) |
-| python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
-| repoq | archlinux | aur | 0.2.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/repoq/) |
-| rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/rog-control-center/) |
-| samsung-unified-driver | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver/) |
-| samsung-unified-driver-common | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-common/) |
-| samsung-unified-driver-printer | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-printer/) |
-| samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
-| sparkle-bin | archlinux | aur | 1.26.8-1 | yes | 2026-09-07 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
-| supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/supergfxctl/) |
-| visual-studio-code-bin | archlinux | aur | 1.137.0-1 | yes | 2026-09-09 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
-| yubico-authenticator | archlinux | aur | 7.4.1-2 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
-| zulu-17-bin | archlinux | aur | 17.0.20-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
-| zulu-21-bin | archlinux | aur | 21.0.12.1-1 | yes | 2026-09-04 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
+| 1password | archlinux | aur | 8.12.36-42 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/1password/) |
+| asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
+| claude-code | archlinux | aur | 2.1.270-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/claude-code/) |
+| github-copilot-cli | archlinux | aur | 1.0.83-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
+| google-chrome | archlinux | aur | 153.0.8010.36-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/google-chrome/) |
+| infisical | archlinux | aur | 0.43.130-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/infisical/) |
+| linuxqq | archlinux | aur | 5:3.2.33_52892-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/linuxqq/) |
+| lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
+| netbird-bin | archlinux | aur | 0.78.1-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/netbird-bin/) |
+| noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
+| oh-my-pi-bin | archlinux | aur | 18.1.19-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
+| oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/oopz/) |
+| opencode-bin | archlinux | aur | 1.18.30-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/opencode-bin/) |
+| paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/paru/) |
+| pi | archlinux | aur | 0.85.1-3 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/pi/) |
+| python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
+| repoq | archlinux | aur | 0.2.1-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/repoq/) |
+| rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/rog-control-center/) |
+| samsung-unified-driver | archlinux | aur | 1.00.39-11 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/samsung-unified-driver/) |
+| samsung-unified-driver-common | archlinux | aur | 1.00.39-11 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/samsung-unified-driver-common/) |
+| samsung-unified-driver-printer | archlinux | aur | 1.00.39-11 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/samsung-unified-driver-printer/) |
+| samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
+| sparkle-bin | archlinux | aur | 1.26.8-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
+| supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/supergfxctl/) |
+| visual-studio-code-bin | archlinux | aur | 1.137.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
+| yubico-authenticator | archlinux | aur | 7.4.1-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
+| zulu-17-bin | archlinux | aur | 17.0.20-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
+| zulu-21-bin | archlinux | aur | 21.0.12.1-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
 <!-- PACKAGE_TABLE:END -->
 
 The table above is regenerated automatically after every publish — don't edit the content between the markers by hand.
