@@ -2,3 +2,4 @@
 name = "linux-mainline"
 version = "7.3rc2-1"
 autoupdate = true
+self_build = true
