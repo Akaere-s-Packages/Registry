@@ -17,7 +17,6 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | github-copilot-cli | archlinux | aur | 1.0.83-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 153.0.8010.47-1 | yes | 2026-09-15 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | infisical | archlinux | aur | 0.43.132-1 | yes | 2026-09-14 | [details](https://packages.pysio.online/packages/infisical/) |
-| linux-mainline | archlinux | aur | 7.3rc2-1 | yes | - | [details](https://packages.pysio.online/packages/linux-mainline/) |
 | linuxqq | archlinux | aur | 5:3.2.33_52892-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
 | netbird-bin | archlinux | aur | 0.78.2-1 | yes | 2026-09-14 | [details](https://packages.pysio.online/packages/netbird-bin/) |
