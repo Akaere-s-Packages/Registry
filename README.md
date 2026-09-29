@@ -15,7 +15,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.285-1 | yes | 2026-09-29 | [details](https://packages.pysio.online/packages/claude-code/) |
 | github-copilot-cli | archlinux | aur | 1.0.89-1 | yes | 2026-09-29 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
-| google-chrome | archlinux | aur | 154.0.8037.57-1 | yes | 2026-09-22 | [details](https://packages.pysio.online/packages/google-chrome/) |
+| google-chrome | archlinux | aur | 154.0.8037.92-1 | yes | 2026-09-29 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | infisical | archlinux | aur | 0.43.137-1 | yes | 2026-09-27 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.34_53644-1 | yes | 2026-09-23 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
