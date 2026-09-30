@@ -23,7 +23,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
 | oh-my-pi-bin | archlinux | aur | 18.4.5-1 | yes | 2026-09-30 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/oopz/) |
-| opencode-bin | archlinux | aur | 1.18.33-1 | yes | 2026-09-28 | [details](https://packages.pysio.online/packages/opencode-bin/) |
+| opencode-bin | archlinux | aur | 1.18.34-1 | yes | 2026-09-30 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/paru/) |
 | pi | archlinux | aur | 0.99.1-1 | yes | 2026-09-30 | [details](https://packages.pysio.online/packages/pi/) |
 | python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
