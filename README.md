@@ -11,7 +11,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 <!-- PACKAGE_TABLE:START -->
 | Package | Distro | Source | Version | Autoupdate | Last Updated | Details |
 |---|---|---|---|---|---|---|
-| 1password | archlinux | aur | 8.12.36-42 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/1password/) |
+| 1password | archlinux | aur | 8.12.38-34 | yes | 2026-10-02 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.287-1 | yes | 2026-10-01 | [details](https://packages.pysio.online/packages/claude-code/) |
 | github-copilot-cli | archlinux | aur | 1.0.90-1 | yes | 2026-09-30 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
