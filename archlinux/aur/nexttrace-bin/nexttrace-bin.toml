@@ -1,0 +1,4 @@
+[PACKAGES]
+name = "nexttrace-bin"
+version = "1.7.3-1"
+autoupdate = true
