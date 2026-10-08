@@ -16,6 +16,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | claude-code | archlinux | aur | 2.1.294-1 | yes | 2026-10-08 | [details](https://packages.pysio.online/packages/claude-code/) |
 | github-copilot-cli | archlinux | aur | 1.0.93-1 | yes | 2026-10-08 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 155.0.8059.39-1 | yes | 2026-10-06 | [details](https://packages.pysio.online/packages/google-chrome/) |
+| grok-bot-bin | archlinux | aur | 0.68.1-1 | yes | 2026-10-08 | [details](https://packages.pysio.online/packages/grok-bot-bin/) |
 | infisical | archlinux | aur | 0.43.137-1 | yes | 2026-09-27 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.34_53644-1 | yes | 2026-09-23 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
@@ -36,7 +37,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
 | sparkle-bin | archlinux | aur | 1.26.8-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/supergfxctl/) |
-| visual-studio-code-bin | archlinux | aur | 1.140.0-2 | yes | 2026-10-07 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
+| visual-studio-code-bin | archlinux | aur | 1.141.0-1 | yes | 2026-10-07 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
 | yubico-authenticator | archlinux | aur | 7.4.1-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
 | zulu-17-bin | archlinux | aur | 17.0.20.1-1 | yes | 2026-09-22 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
 | zulu-21-bin | archlinux | aur | 21.0.12.1-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
