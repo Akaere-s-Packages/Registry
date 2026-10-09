@@ -14,7 +14,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | 1password | archlinux | aur | 8.12.40-31 | yes | 2026-10-05 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.296-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/claude-code/) |
-| github-copilot-cli | archlinux | aur | 1.0.94-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
+| github-copilot-cli | archlinux | aur | 1.0.95-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 155.0.8059.39-1 | yes | 2026-10-06 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | grok-bot-bin | archlinux | aur | 0.68.1-1 | yes | - | [details](https://packages.pysio.online/packages/grok-bot-bin/) |
 | infisical | archlinux | aur | 0.43.141-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/infisical/) |
