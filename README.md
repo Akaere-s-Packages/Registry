@@ -17,7 +17,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | datagrip | archlinux | aur | 2026.2.6-1 | yes | 2026-10-10 | [details](https://packages.pysio.online/packages/datagrip/) |
 | github-copilot-cli | archlinux | aur | 1.0.95-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 155.0.8059.39-1 | yes | 2026-10-06 | [details](https://packages.pysio.online/packages/google-chrome/) |
-| grok-bot-bin | archlinux | aur | 0.68.1-1 | yes | - | [details](https://packages.pysio.online/packages/grok-bot-bin/) |
+| grok-bot-bin | archlinux | aur | 0.69.1-1 | yes | 2026-10-11 | [details](https://packages.pysio.online/packages/grok-bot-bin/) |
 | infisical | archlinux | aur | 0.43.141-1 | yes | 2026-10-09 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.34_53644-1 | yes | 2026-09-23 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
