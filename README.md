@@ -15,7 +15,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.300-1 | yes | 2026-10-14 | [details](https://packages.pysio.online/packages/claude-code/) |
 | datagrip | archlinux | aur | 2026.2.6-1 | yes | 2026-10-10 | [details](https://packages.pysio.online/packages/datagrip/) |
-| github-copilot-cli | archlinux | aur | 1.0.97-1 | yes | 2026-10-13 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
+| github-copilot-cli | archlinux | aur | 1.0.98-1 | yes | 2026-10-15 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 155.0.8059.79-1 | yes | 2026-10-14 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | grok-bot-bin | archlinux | aur | 0.70.2-1 | yes | 2026-10-12 | [details](https://packages.pysio.online/packages/grok-bot-bin/) |
 | infisical | archlinux | aur | 0.43.144-1 | yes | 2026-10-13 | [details](https://packages.pysio.online/packages/infisical/) |
