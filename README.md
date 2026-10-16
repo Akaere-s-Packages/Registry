@@ -21,7 +21,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | infisical | archlinux | aur | 0.43.144-1 | yes | 2026-10-13 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.34_53644-1 | yes | 2026-09-23 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/lolia-cli/) |
-| netbird-bin | archlinux | aur | 0.81.0-1 | yes | 2026-10-15 | [details](https://packages.pysio.online/packages/netbird-bin/) |
+| netbird-bin | archlinux | aur | 0.81.1-1 | yes | 2026-10-16 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | nexttrace-bin | archlinux | aur | 1.7.4-1 | yes | 2026-10-11 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
 | oh-my-pi-bin | archlinux | aur | 18.11.1-1 | yes | 2026-10-15 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
