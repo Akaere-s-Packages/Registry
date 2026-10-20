@@ -11,7 +11,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 <!-- PACKAGE_TABLE:START -->
 | Package | Distro | Source | Version | Autoupdate | Last Updated | Details |
 |---|---|---|---|---|---|---|
-| 1password | archlinux | aur | 8.12.40-31 | yes | 2026-10-05 | [details](https://packages.pysio.online/packages/1password/) |
+| 1password | archlinux | aur | 8.12.42-36 | yes | 2026-10-20 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.304-1 | yes | 2026-10-19 | [details](https://packages.pysio.online/packages/claude-code/) |
 | datagrip | archlinux | aur | 2026.2.6-1 | yes | 2026-10-10 | [details](https://packages.pysio.online/packages/datagrip/) |
