@@ -24,7 +24,7 @@ To remove a package, run the **remove-package** workflow with its name (Actions 
 | netbird-bin | archlinux | aur | 0.81.3-1 | yes | 2026-10-19 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | nexttrace-bin | archlinux | aur | 1.7.4-1 | yes | 2026-10-11 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
-| oh-my-pi-bin | archlinux | aur | 18.12.4-1 | yes | 2026-10-20 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
+| oh-my-pi-bin | archlinux | aur | 18.12.5-1 | yes | 2026-10-21 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.19.3-1 | yes | 2026-10-16 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.1.0-2 | yes | 2026-09-13 | [details](https://packages.pysio.online/packages/paru/) |
