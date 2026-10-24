@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "netbird-bin"
-version = "0.81.3-1"
+version = "0.81.4-1"
 autoupdate = true
