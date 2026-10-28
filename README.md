@@ -6,6 +6,32 @@ To add or update a package, edit its toml and open a PR: the PR automatically ge
 
 To remove a package, run the **remove-package** workflow with its name (Actions → remove-package → Run workflow): it opens a PR deleting the manifest, and merging that PR is what actually drops the package from the published repository — the build pipeline repo-removes it from the pacman database and deletes its files from storage. It refuses if another package here still hard-depends on it; if those are going too, list every name at once, comma-separated.
 
+## Nix binary cache
+
+`nix/flake.nix` re-exports upstream flake packages (currently `omp` from `github:can1357/oh-my-pi`). Every day the **nix-cache** workflow updates `nix/flake.lock` to each upstream's latest commit, builds every `packages.x86_64-linux` attribute, pushes the results to the [`akaere` Cachix cache](https://app.cachix.org/cache/akaere), and commits the new lock — only after everything built and was pushed, so the committed lock is always fully cached. A day with no upstream change builds nothing. To add a flake, add an input and a `packages.x86_64-linux` attribute to `nix/flake.nix`; the push builds it right away.
+
+A store path only matches when the consumer evaluates the same lock, so follow this flake's inputs instead of tracking upstream directly:
+
+```nix
+{
+  inputs = {
+    akaere.url = "github:Akaere-s-Packages/Registry?dir=nix";
+    omp.follows = "akaere/omp";
+  };
+}
+```
+
+and trust the cache (NixOS):
+
+```nix
+nix.settings = {
+  extra-substituters = [ "https://akaere.cachix.org" ];
+  extra-trusted-public-keys = [ "akaere.cachix.org-1:tGTjjFMhKZFaxBrRo/8dpWjjEjXttHhqBJcX4ix5NzQ=" ];
+};
+```
+
+`nix flake update akaere` then pulls the latest cached revision. Requires the `CACHIX_AUTH_TOKEN` secret (a write token for `akaere`).
+
 ## Packages
 
 <!-- PACKAGE_TABLE:START -->

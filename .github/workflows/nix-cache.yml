@@ -1,0 +1,32 @@
+name: nix-cache
+
+# Daily: refresh nix/flake.lock to every upstream flake's latest rev, build
+# all packages it exposes, push them to the akaere Cachix cache, and commit
+# the lock. A push touching nix/ (new input, hand-edited lock) builds what
+# it pins without refreshing anything. See workflow-build-kit's
+# nix-cache.yml.
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # daily, 20:00 UTC
+  push:
+    branches: [main]
+    paths: ["nix/**"]
+    # The workflow's own lock commit uses the default GITHUB_TOKEN, which
+    # never retriggers a workflow run.
+  workflow_dispatch:
+    inputs:
+      update-inputs:
+        description: Update every flake input before building. Untick to build exactly what nix/flake.lock pins.
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  nix-cache:
+    permissions:
+      contents: write
+    uses: Akaere-s-Packages/workflow-build-kit/.github/workflows/nix-cache.yml@main
+    with:
+      update-inputs: ${{ github.event_name != 'push' && (github.event_name != 'workflow_dispatch' || inputs.update-inputs) }}
+    secrets: inherit
