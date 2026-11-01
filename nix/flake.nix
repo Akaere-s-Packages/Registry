@@ -18,15 +18,29 @@
   #   inputs.omp.follows = "akaere/omp";
   inputs = {
     omp.url = "github:can1357/oh-my-pi";
+
+    # Packages built here (not re-exported from an upstream flake) are
+    # evaluated against this nixpkgs; follow it as `akaere/nixpkgs` to hit
+    # the cache.
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # Kwi has no releases yet; the daily lock update tracks master.
+    kwi-src = {
+      url = "git+https://invent.kde.org/utilities/kwi.git";
+      flake = false;
+    };
   };
 
   outputs =
-    { omp, ... }:
+    { omp, nixpkgs, kwi-src, ... }:
+    let
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+    in
     {
       # Every attribute here is built and pushed by workflow-build-kit's
       # nix-cache.yml. Only x86_64-linux is built.
       packages.x86_64-linux = {
         omp = omp.packages.x86_64-linux.default;
+        kwi = pkgs.callPackage ./pkgs/kwi/package.nix { src = kwi-src; };
       };
     };
 }
