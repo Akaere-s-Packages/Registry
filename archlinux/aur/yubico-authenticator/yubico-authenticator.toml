@@ -1,5 +1,5 @@
 [PACKAGES]
 name = "yubico-authenticator"
-version = "7.4.1-2"
+version = "7.5.0-1"
 autoupdate = true
 aur_depends = ["python-zxing-cpp"]
