@@ -43,7 +43,7 @@ nix.settings = {
 | datagrip | archlinux | aur | 2026.2.6.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/datagrip/) |
 | github-copilot-cli | archlinux | aur | 1.0.105-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 156.0.8078.79-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/google-chrome/) |
-| infisical | archlinux | aur | 0.44.8-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/infisical/) |
+| infisical | archlinux | aur | 0.44.12-1 | yes | 2026-11-03 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.35_54395-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/lolia-cli/) |
 | netbird-bin | archlinux | aur | 0.82.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/netbird-bin/) |
