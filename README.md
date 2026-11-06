@@ -63,7 +63,7 @@ nix.settings = {
 | samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
 | sparkle-bin | archlinux | aur | 1.26.10-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/supergfxctl/) |
-| visual-studio-code-bin | archlinux | aur | 1.145.0-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
+| visual-studio-code-bin | archlinux | aur | 1.145.2-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
 | yubico-authenticator | archlinux | aur | 7.5.0-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
 | zulu-17-bin | archlinux | aur | 17.0.20.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
 | zulu-21-bin | archlinux | aur | 21.0.12.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
