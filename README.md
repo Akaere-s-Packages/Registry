@@ -47,7 +47,7 @@ nix.settings = {
 | linuxqq | archlinux | aur | 5:3.2.35_54395-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/lolia-cli/) |
 | netbird-bin | archlinux | aur | 0.82.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/netbird-bin/) |
-| nexttrace-bin | archlinux | aur | 1.7.5-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
+| nexttrace-bin | archlinux | aur | 1.7.6-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
 | oh-my-pi-bin | archlinux | aur | 18.17.0-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/oopz/) |
