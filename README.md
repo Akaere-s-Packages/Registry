@@ -49,7 +49,7 @@ nix.settings = {
 | netbird-bin | archlinux | aur | 0.82.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | nexttrace-bin | archlinux | aur | 1.7.6-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
-| oh-my-pi-bin | archlinux | aur | 18.17.0-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
+| oh-my-pi-bin | archlinux | aur | 18.18.0-1 | yes | 2026-11-07 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.19.5-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.2.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/paru/) |
