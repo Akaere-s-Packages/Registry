@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "visual-studio-code-bin"
-version = "1.145.3-1"
+version = "1.146.0-1"
 autoupdate = true
