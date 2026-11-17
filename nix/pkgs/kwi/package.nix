@@ -2,25 +2,39 @@
   lib,
   stdenv,
   src,
+  fetchzip,
   cmake,
   ninja,
   pkg-config,
   libghostty-vt,
-  ghostty,
   zig_0_17,
   kdePackages,
 }:
 
 let
-  # nixpkgs' libghostty-vt pins an older ghostty commit that lacks APIs
-  # FindGhostty.cmake checks for (e.g. ghostty_selection_gesture_event).
-  # Kwi targets the ghostty 1.4.0 release, which nixpkgs' ghostty already
-  # packages along with its zig dependency cache; reuse both.
+  # Kwi requires libghostty-vt >= 1.0.1 (find_package(Ghostty 1.0.1)), but
+  # nixpkgs' libghostty-vt is an unversioned 0.1.0 git snapshot. Build the
+  # standalone 1.0.1 release instead, the same tarball + vendored zig
+  # package cache kwi's own .flatpak-manifest.json pins.
   libghostty-vt' =
     (libghostty-vt.override { zig_0_16 = zig_0_17; }).overrideAttrs
-      (_: {
-        version = "0.1.0-dev+ghostty.${ghostty.version}";
-        inherit (ghostty) src deps;
+      (finalAttrs: _: {
+        version = "1.0.1";
+        src = fetchzip {
+          url = "https://release.files.ghostty.org/libghostty-vt/${finalAttrs.version}/libghostty-vt-${finalAttrs.version}.tar.gz";
+          hash = "sha256-zGuLawiLRplgXoWllDefbR+QYoEiS0MhHG+EKWFFMjI=";
+        };
+        deps = fetchzip {
+          url = "https://release.files.ghostty.org/libghostty-vt/${finalAttrs.version}/libghostty-vt-${finalAttrs.version}-deps.tar.gz";
+          hash = "sha256-bqi6TjqxfMtLYyStfHeqZBPsapfdJHVT3ILxL7u+kEQ=";
+        };
+        # The release installs a relocatable CMake package (prefix derived
+        # from its own location) and .pc files under lib/, so splitting a
+        # dev output strands them away from the libraries they point at;
+        # nixpkgs' snapshot-specific static-archive relocation doesn't apply.
+        outputs = [ "out" ];
+        postInstall = "";
+        postFixup = "";
       });
 in
 stdenv.mkDerivation {
