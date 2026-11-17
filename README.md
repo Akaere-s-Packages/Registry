@@ -37,23 +37,23 @@ nix.settings = {
 <!-- PACKAGE_TABLE:START -->
 | Package | Distro | Source | Version | Autoupdate | Last Updated | Details |
 |---|---|---|---|---|---|---|
-| 1password | archlinux | aur | 8.12.44-33 | yes | 2026-11-03 | [details](https://packages.pysio.online/packages/1password/) |
+| 1password | archlinux | aur | 8.12.46-29 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/asusctl/) |
-| claude-code | archlinux | aur | 2.1.322-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/claude-code/) |
+| claude-code | archlinux | aur | 2.1.326-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/claude-code/) |
 | datagrip | archlinux | aur | 2026.3-1 | yes | 2026-11-05 | [details](https://packages.pysio.online/packages/datagrip/) |
-| github-copilot-cli | archlinux | aur | 1.0.108-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
-| google-chrome | archlinux | aur | 157.0.8103.38-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/google-chrome/) |
-| infisical | archlinux | aur | 0.45.1-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/infisical/) |
+| github-copilot-cli | archlinux | aur | 1.0.112-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
+| google-chrome | archlinux | aur | 157.0.8103.78-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/google-chrome/) |
+| infisical | archlinux | aur | 0.45.9-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.35_54395-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/linuxqq/) |
 | lolia-cli | archlinux | aur | 0.71.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/lolia-cli/) |
-| netbird-bin | archlinux | aur | 0.82.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/netbird-bin/) |
+| netbird-bin | archlinux | aur | 0.83.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/netbird-bin/) |
 | nexttrace-bin | archlinux | aur | 1.7.6-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/nexttrace-bin/) |
 | noto-fonts-sc | archlinux | aur | 2:20210430-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/noto-fonts-sc/) |
-| oh-my-pi-bin | archlinux | aur | 18.18.6-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
+| oh-my-pi-bin | archlinux | aur | 18.22.0-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.19.5-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.2.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/paru/) |
-| pi | archlinux | aur | 1.5.1-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/pi/) |
+| pi | archlinux | aur | 1.5.2-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/pi/) |
 | python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/repoq/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/rog-control-center/) |
@@ -63,7 +63,7 @@ nix.settings = {
 | samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
 | sparkle-bin | archlinux | aur | 1.26.10-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/supergfxctl/) |
-| visual-studio-code-bin | archlinux | aur | 1.145.2-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
+| visual-studio-code-bin | archlinux | aur | 1.146.0-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
 | yubico-authenticator | archlinux | aur | 7.5.0-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
 | zulu-17-bin | archlinux | aur | 17.0.21.0.3-1 | yes | 2026-11-08 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
 | zulu-21-bin | archlinux | aur | 21.0.13.0.3-1 | yes | 2026-11-09 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
