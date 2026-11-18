@@ -52,7 +52,7 @@ nix.settings = {
 | oh-my-pi-bin | archlinux | aur | 18.22.2-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/oh-my-pi-bin/) |
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.19.6-1 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/opencode-bin/) |
-| paru | archlinux | aur | 2.2.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/paru/) |
+| paru | archlinux | aur | 2.2.1-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/paru/) |
 | pi | archlinux | aur | 1.5.2-1 | yes | 2026-11-10 | [details](https://packages.pysio.online/packages/pi/) |
 | python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/repoq/) |
