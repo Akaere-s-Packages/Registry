@@ -54,7 +54,7 @@ nix.settings = {
 | opencode-bin | archlinux | aur | 1.19.6-1 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.2.1-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/paru/) |
 | pi | archlinux | aur | 1.6.0-1 | yes | 2026-11-20 | [details](https://packages.pysio.online/packages/pi/) |
-| python-zxing-cpp | archlinux | aur | 3.1.1-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
+| python-zxing-cpp | archlinux | aur | 3.2.0-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/repoq/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/rog-control-center/) |
 | samsung-unified-driver | archlinux | aur | 1.00.39-11 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/samsung-unified-driver/) |
