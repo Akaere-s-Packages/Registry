@@ -40,7 +40,7 @@ nix.settings = {
 | 1password | archlinux | aur | 8.12.46-29 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.331-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/claude-code/) |
-| datagrip | archlinux | aur | 2026.3-1 | yes | 2026-11-05 | [details](https://packages.pysio.online/packages/datagrip/) |
+| datagrip | archlinux | aur | 2026.3.0.1-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/datagrip/) |
 | github-copilot-cli | archlinux | aur | 1.0.114-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 158.0.8127.88-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | infisical | archlinux | aur | 0.45.9-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/infisical/) |
