@@ -41,7 +41,7 @@ nix.settings = {
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.332-1 | yes | 2026-11-25 | [details](https://packages.pysio.online/packages/claude-code/) |
 | datagrip | archlinux | aur | 2026.3.0.1-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/datagrip/) |
-| github-copilot-cli | archlinux | aur | 1.0.114-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
+| github-copilot-cli | archlinux | aur | 1.0.115-1 | yes | 2026-11-25 | [details](https://packages.pysio.online/packages/github-copilot-cli/) |
 | google-chrome | archlinux | aur | 158.0.8127.88-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/google-chrome/) |
 | infisical | archlinux | aur | 0.45.9-1 | yes | 2026-11-06 | [details](https://packages.pysio.online/packages/infisical/) |
 | linuxqq | archlinux | aur | 5:3.2.35_54395-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/linuxqq/) |
