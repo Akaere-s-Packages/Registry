@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "claude-code"
-version = "2.1.331-1"
+version = "2.1.332-1"
 autoupdate = true
