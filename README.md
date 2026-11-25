@@ -37,7 +37,7 @@ nix.settings = {
 <!-- PACKAGE_TABLE:START -->
 | Package | Distro | Source | Version | Autoupdate | Last Updated | Details |
 |---|---|---|---|---|---|---|
-| 1password | archlinux | aur | 8.12.46-29 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/1password/) |
+| 1password | archlinux | aur | 8.12.48-25 | yes | 2026-11-25 | [details](https://packages.pysio.online/packages/1password/) |
 | asusctl | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/asusctl/) |
 | claude-code | archlinux | aur | 2.1.331-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/claude-code/) |
 | datagrip | archlinux | aur | 2026.3.0.1-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/datagrip/) |
