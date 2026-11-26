@@ -53,7 +53,7 @@ nix.settings = {
 | oopz | archlinux | aur | 1.0.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/oopz/) |
 | opencode-bin | archlinux | aur | 1.19.6-1 | yes | 2026-11-17 | [details](https://packages.pysio.online/packages/opencode-bin/) |
 | paru | archlinux | aur | 2.2.1-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/paru/) |
-| pi | archlinux | aur | 1.6.0-1 | yes | 2026-11-20 | [details](https://packages.pysio.online/packages/pi/) |
+| pi | archlinux | aur | 1.6.1-2 | yes | 2026-11-26 | [details](https://packages.pysio.online/packages/pi/) |
 | python-zxing-cpp | archlinux | aur | 3.2.0-1 | yes | 2026-11-24 | [details](https://packages.pysio.online/packages/python-zxing-cpp/) |
 | repoq | archlinux | aur | 0.2.1-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/repoq/) |
 | rog-control-center | archlinux | aur | 6.4.0-1 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/rog-control-center/) |
@@ -63,7 +63,7 @@ nix.settings = {
 | samsung-unified-driver-scanner | archlinux | aur | 1.00.39-11 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/samsung-unified-driver-scanner/) |
 | sparkle-bin | archlinux | aur | 1.26.10-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/sparkle-bin/) |
 | supergfxctl | archlinux | aur | 5.2.7-2 | yes | 2026-11-01 | [details](https://packages.pysio.online/packages/supergfxctl/) |
-| visual-studio-code-bin | archlinux | aur | 1.147.0-1 | yes | 2026-11-18 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
+| visual-studio-code-bin | archlinux | aur | 1.148.0-1 | yes | 2026-11-26 | [details](https://packages.pysio.online/packages/visual-studio-code-bin/) |
 | yubico-authenticator | archlinux | aur | 7.5.0-1 | yes | 2026-11-04 | [details](https://packages.pysio.online/packages/yubico-authenticator/) |
 | zulu-17-bin | archlinux | aur | 17.0.21.0.3-1 | yes | 2026-11-08 | [details](https://packages.pysio.online/packages/zulu-17-bin/) |
 | zulu-21-bin | archlinux | aur | 21.0.13.1-1 | yes | 2026-11-23 | [details](https://packages.pysio.online/packages/zulu-21-bin/) |
