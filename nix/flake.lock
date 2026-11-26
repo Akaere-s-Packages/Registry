@@ -110,11 +110,11 @@
     "kwi-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1795488498,
-        "narHash": "sha256-8CZjLlNbk3FPvrj8PuBx2Nhb2leQTemWmK3HA99Sslk=",
+        "lastModified": 1795660204,
+        "narHash": "sha256-33zJ11ebJb/aYb37s1xWY3CKJD2ENpfHnyqigF/jAeE=",
         "ref": "refs/heads/master",
-        "rev": "d9b8ca49f33e0518912ae185d460e41c43bf0020",
-        "revCount": 188,
+        "rev": "e94666f0c955f85b9bae0f9bc3277bdd0681d5c5",
+        "revCount": 193,
         "type": "git",
         "url": "https://invent.kde.org/utilities/kwi.git"
       },
@@ -131,11 +131,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1793527794,
-        "narHash": "sha256-ZCz0zE+Lgb3hBn+u3n39Txegdw3jI/SVkQjR+TjClh4=",
+        "lastModified": 1795576432,
+        "narHash": "sha256-rjTISH0+eXrTDEotD0vyIDwXz7Si4pia/0leqrU5Qj4=",
         "owner": "ryoppippi",
         "repo": "nix-bun",
-        "rev": "4170f2a531122ac75aa45d823bd69e6e9a77563f",
+        "rev": "fa153e965e21148e26ee60269755727f8ed087ff",
         "type": "github"
       },
       "original": {
@@ -203,11 +203,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1795473991,
-        "narHash": "sha256-h0OtkBhaUm/FbJO+QuFsi2V/wdLcpnPYkP850/68cqg=",
+        "lastModified": 1795652261,
+        "narHash": "sha256-AGxT0BRnIaOIVJtR1RFj0o+SZwqo2Tza2DDL65QxjK0=",
         "owner": "can1357",
         "repo": "oh-my-pi",
-        "rev": "4df653426f40ee1eb78ef408528eb9e6a5275b9d",
+        "rev": "0ba99d7b351c25478859ace113b24b1aefec07e3",
         "type": "github"
       },
       "original": {
