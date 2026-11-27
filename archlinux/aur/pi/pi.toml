@@ -1,4 +1,4 @@
 [PACKAGES]
 name = "pi"
-version = "1.6.1-2"
+version = "1.7.0-1"
 autoupdate = true
